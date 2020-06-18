@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Five years working in Finance gave me valuable knowledge of multiple industries. While working intensively with the mobile games sector in my last role, I find myself deeply attracted to user generated Data. Urged to improve the gaming experience and user lifetime value, I decided to dive deeper into Data Science. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[lechiben@gmail.com](mailto:lechiben@gmail.com)
