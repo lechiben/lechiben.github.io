@@ -1,15 +1,15 @@
 ========== HEADER ==========
 .nav__logo-circle
-R
+B
 
 .nav__logo-name
-Rian Lot.
+Ben Le.
 
 .nav__title
 Menu
 
 .nav__name
-Rian
+Ben
 
 .nav__link
 Home - About Me - Projects - Contact Me
