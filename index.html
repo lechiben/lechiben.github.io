@@ -396,8 +396,9 @@ client expectations
                            <label for="message" class="contact__label">Message</label>
                         </div>
                      </div>
+                     <p class="contact__message" id="contact-message">Message sent successfully ✅</p>
                      <button type="submit" class="contact__button button">
-                        <i class="ri-mail-send-line"></i>Send Message
+                        <i class="ri-send-plane-line"></i>Send Message
                      </button>
                   </form>
                </div>
@@ -434,7 +435,24 @@ client expectations
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footter__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+            <span class="footer__copy">
+               &#169; All Rights Reserved By 
+               <a href="#">Ben Le.</a>
+
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
@@ -444,7 +462,8 @@ client expectations
       <script src=""></script>
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
