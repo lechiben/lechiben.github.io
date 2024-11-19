@@ -22,7 +22,7 @@
 
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link active-link">Home</a>
                   </li>
                   
                   <li class="nav__item">
@@ -42,6 +42,8 @@
                </div>
             </div>
             <div class="nav__buttons">
+               <!--Theme button -->
+                 <i class="ri-moon-line change-theme" id="theme-button"></i>
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-menu-4-line"></i>
                </div>
@@ -396,7 +398,7 @@ client expectations
                            <label for="message" class="contact__label">Message</label>
                         </div>
                      </div>
-                     <p class="contact__message" id="contact-message">Message sent successfully ✅</p>
+                     <p class="contact__message" id="contact-message"></p>
                      <button type="submit" class="contact__button button">
                         <i class="ri-send-plane-line"></i>Send Message
                      </button>
@@ -456,7 +458,9 @@ client expectations
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup show-scroll" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
