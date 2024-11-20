@@ -15,7 +15,7 @@ if(navClose){
     })
 }
 /*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll('nav__link')
+const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () =>{
     const navMenu = document.getElementById('nav-menu')
@@ -127,3 +127,36 @@ themeButton.addEventListener('click', () => {
 }) 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2500,
+//     delay: 400,
+//     // reset: true //Animation repeat
+// })
+
+// sr.reveal(`.home__perfil, .about__image`, {origin: 'right'})
+// sr.reveal(`.home__name, .home__info, 
+//             .about__container .section__title-1, 
+//             .about__info,
+//             .contact__social,
+//             .contact__data`, {origin: 'left'})
+// sr.reveal(`.services__card, .projects__card`, {interval: 100})
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+        reset: true //Animation repeat
+    })
+
+    sr.reveal(`.home__perfil, .about__image`, {origin: 'right'})
+    sr.reveal(`.home__name, .home__info, 
+                .about__container .section__title-1, 
+                .about__info,
+                .contact__social,
+                .contact__data`, {origin: 'left'})
+    sr.reveal(`.services__card, .projects__card`, {interval: 100})
+})
