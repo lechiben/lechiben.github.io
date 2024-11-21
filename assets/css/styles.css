@@ -1172,11 +1172,12 @@ contact__input:-webkit-autofill{
     width: 180px;
   }
 
-  .home__social-link{
+  .home__social{
+    height: max-content;
     font-size: 1rem;
     pad: 4px;
   }
-  
+
   .about_image{
     width: 180px;
   }
