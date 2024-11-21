@@ -1171,6 +1171,12 @@ contact__input:-webkit-autofill{
   .home__image{
     width: 180px;
   }
+
+  .home__social-link{
+    font-size: 1rem;
+    pad: 4px;
+  }
+  
   .about_image{
     width: 180px;
   }
