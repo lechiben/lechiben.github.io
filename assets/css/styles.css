@@ -1173,7 +1173,7 @@ contact__input:-webkit-autofill{
   }
 
   .home__social{
-    height: max-content;
+    height: min-content;
     font-size: 1rem;
     pad: 4px;
   }
