@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         distance: '60px',
         duration: 2500,
         delay: 400,
-        reset: true //Animation repeat
+        //reset: true //Animation repeat
     })
 
     sr.reveal(`.home__perfil, .about__image`, {origin: 'right'})
