@@ -432,16 +432,16 @@ body::before {
   animation: blink 1s infinite;
 }
 
-@keyframes blink {
+/* @keyframes blink {
   0%,
-  50% {
+  50%, 100% {
     opacity: 1;
   }
   51%,
   100% {
-    opacity: 0;
+    opacity: 1;
   }
-}
+} */
 
 /* Code Window Styles */
 .code-window {
