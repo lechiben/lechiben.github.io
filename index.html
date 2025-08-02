@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="icon" href="/img/personalcard.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="fade-in">
     <!-- Matrix Background Canvas -->
@@ -427,7 +427,10 @@
         ctx.fillStyle = "rgba(15, 23, 42, 0.04)";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        ctx.fillStyle = "#22c55e";
+        // Brighter green and shadow for increased contrast
+        ctx.fillStyle = "#4ade80";
+        ctx.shadowColor = "#4ade80";
+        ctx.shadowBlur = 5; // Subtle glow
         ctx.font = `${fontSize}px JetBrains Mono`;
 
         drops.forEach((y, index) => {
@@ -441,6 +444,9 @@
           }
           drops[index]++;
         });
+
+        // Reset shadow to avoid affecting other canvas drawings
+        ctx.shadowBlur = 0;
       }
 
       // Matrix Side Panels
